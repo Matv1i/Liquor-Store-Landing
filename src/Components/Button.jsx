@@ -11,7 +11,7 @@ const Button = ({
   return (
     <button
       className={`$
-    flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-orange-500  rounded-full ${
+    flex justify-center items-center gap-2 px-7 py-4 border font-montserrat text-lg leading-none bg-gold  rounded-full ${
       backgroundColor
         ? `${backgroundColor} ${textColor} ${borderColor}`
         : "bg-coral-red text-white border-coral-red"

@@ -4,17 +4,17 @@ import React, { useState } from "react"
 const NavOpen = ({ isOpen }) => {
   return (
     <div
-      className={`transition-all   mt-6 duration-300 ease-in-out transform ${
+      className={`  transition-all    mt-6 duration-300 ease-in-out transform ${
         isOpen
-          ? "max-lg:block translate-y-0 opacity-100"
+          ? "max-lg:block   translate-y-0 opacity-100"
           : "translate-y-[-100%] opacity-0 pointer-events-none"
       }`}
     >
-      <ul className="flex flex-col items-center gap-4 bg-white p-4 shadow-lg rounded-lg">
+      <ul className="bg-black-bit border-2 border-gold text-white-bit  flex flex-col items-center gap-4  p-4 shadow-lg rounded-lg">
         <li>
           <a
             href="/home"
-            className="font-montserrat leading-normal text-lg text-slate-700 hover:text-slate-500 transition-all duration-300"
+            className="font-montserrat leading-normal text-lg  hover:text-gold transition-all duration-300"
           >
             Home
           </a>
@@ -22,7 +22,7 @@ const NavOpen = ({ isOpen }) => {
         <li>
           <a
             href="/"
-            className="font-montserrat leading-normal text-lg text-slate-700 hover:text-slate-500 transition-all duration-300"
+            className="font-montserrat leading-normal text-lg  hover:text-gold  transition-all duration-300"
           >
             About us
           </a>
@@ -30,7 +30,7 @@ const NavOpen = ({ isOpen }) => {
         <li>
           <a
             href="#products"
-            className="font-montserrat leading-normal text-lg text-slate-700 hover:text-slate-500 transition-all duration-300"
+            className="font-montserrat leading-normal text-lg  hover:text-gold  transition-all duration-300"
           >
             Products
           </a>
@@ -38,7 +38,7 @@ const NavOpen = ({ isOpen }) => {
         <li>
           <a
             href="/"
-            className="font-montserrat leading-normal text-lg text-slate-700 hover:text-slate-500 transition-all duration-300"
+            className="font-montserrat leading-normal text-lg  hover:text-gold  transition-all duration-300"
           >
             Contact us
           </a>
@@ -63,20 +63,20 @@ export const Nav = () => {
         isOpen ? "relative" : "absolute"
       }`}
     >
-      <nav className="flex justify-between items-center max-container ">
+      <nav className="flex justify-between z-10 items-center max-container ">
         <a href="/">
           <img
             src="src/assets/images/header-logo.png"
             alt="logo"
-            width={130}
-            height={29}
+            width={150}
+            height={40}
           />
         </a>
         <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
           <li>
             <a
               href="/"
-              className="font-montserrat leading-normal text-lg text-slate-700 hover:text-slate-500 transition-all duration-300"
+              className=" text-white-bit font-montserrat leading-normal text-2xl hover:text-gold  transition-all duration-300"
             >
               Home
             </a>
@@ -84,7 +84,7 @@ export const Nav = () => {
           <li>
             <a
               href="/"
-              className="font-montserrat leading-normal text-lg text-slate-700 hover:text-slate-500 transition-all duration-300"
+              className=" text-white-bit font-montserrat leading-normal text-2xl hover:text-gold transition-all duration-300"
             >
               About us
             </a>
@@ -92,7 +92,7 @@ export const Nav = () => {
           <li>
             <a
               href="/"
-              className="font-montserrat leading-normal text-lg text-slate-700 hover:text-slate-500 transition-all duration-300"
+              className="font-montserrat leading-normal text-white-bit text-2xl hover:text-gold transition-all duration-300"
             >
               Products
             </a>
@@ -100,7 +100,7 @@ export const Nav = () => {
           <li>
             <a
               href="/"
-              className="font-montserrat leading-normal text-lg text-slate-700 hover:text-slate-500 transition-all duration-300"
+              className="font-montserrat leading-normal text-2xl text-white-bit hover:text-gold transition-all duration-300"
             >
               Contact us
             </a>

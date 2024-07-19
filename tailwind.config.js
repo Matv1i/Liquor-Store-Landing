@@ -37,13 +37,14 @@ export default {
         gold: "#bfa75d",
         "slate-gray": "#838181",
         "dark-gray": "#606060",
-        "black-bit": "	#222222",
+        "black-bit": "	#111111",
+        "black-tint": "#282828",
       },
       boxShadow: {
         "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
       },
       backgroundImage: {
-        hero: "url('assets/images/collection-background.svg')",
+        hero: "url('assets/images/diamonds.png')",
         card: "url('assets/images/thumbnail-background.svg')",
       },
       screens: {

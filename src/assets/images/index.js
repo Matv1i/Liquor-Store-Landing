@@ -1,46 +1,32 @@
-import bigShoe1 from './big-shoe1.png'
-import bigShoe2 from './big-shoe2.png'
-import bigShoe3 from './big-shoe3.png'
+import customer1 from "./customer1.jpeg"
+import customer2 from "./customer2.svg"
 
-import customer1 from './customer1.jpeg'
-import customer2 from './customer2.svg'
+import moet1 from "./moet1.png"
+import moet2 from "./moet2.png"
+import moet3 from "./moet3.png"
 
-import footerLogo from './footer-logo.svg'
-import headerLogo from './header-logo.svg'
+import bottle1 from "./bottle1.png"
+import bottle2 from "./bottle2.png"
+import bottle3 from "./bottle3.png"
+import bottle4 from "./bottle4.png"
 
-import offer from './offer.svg'
+import alotbottles from "./alotbottles.png"
 
-import shoe4 from './shoe4.svg'
-import shoe5 from './shoe5.svg'
-import shoe6 from './shoe6.svg'
-import shoe7 from './shoe7.svg'
-import shoe8 from './shoe8.svg'
+import winePromo from "./winePromo.jpg"
 
-import thumbnailBackground from './thumbnail-background.svg'
-import thumbnailShoe1 from './thumbnail-shoe1.svg'
-import thumbnailShoe2 from './thumbnail-shoe2.svg'
-import thumbnailShoe3 from './thumbnail-shoe3.svg'
+import headerLogo from "./header-logo.png"
 
 export {
-    bigShoe1,
-    bigShoe2,
-    bigShoe3,
-
-    customer1,
-    customer2,
-
-    footerLogo,
-    headerLogo,
-
-    offer,
-    shoe4,
-    shoe5,
-    shoe6,
-    shoe7,
-    shoe8,
-
-    thumbnailBackground,
-    thumbnailShoe1,
-    thumbnailShoe2,
-    thumbnailShoe3
+  headerLogo,
+  winePromo,
+  alotbottles,
+  bottle1,
+  bottle2,
+  bottle3,
+  bottle4,
+  customer1,
+  customer2,
+  moet1,
+  moet2,
+  moet3,
 }

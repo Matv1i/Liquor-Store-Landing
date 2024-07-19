@@ -1,15 +1,15 @@
 import React from "react"
-import { footerLogo } from "../assets/images"
+import { headerLogo } from "../assets/images"
 import { footerLinks, socialMedia } from "../constants"
 import { copyrightSign } from "../assets/icons"
 
 export const Footer = () => {
   return (
-    <footer className="max-container">
-      <div className="flex justify-between items-start gap-20 flex-wrap max-lg:flex-col">
+    <footer className="max-container text-white-bit">
+      <div className="flex  justify-between items-start gap-20 flex-wrap max-lg:flex-col">
         <div className="flex-col items-start">
           <a href="/">
-            <img src={footerLogo} width={150} height={46} />
+            <img src={headerLogo} width={150} height={46} />
           </a>
           <p className="mt-6 text-base leading-7 font-montserrat text-white-400 sm:max-w-sm">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
