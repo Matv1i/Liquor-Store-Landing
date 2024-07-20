@@ -13,7 +13,7 @@ const NavOpen = ({ isOpen }) => {
       <ul className="bg-black-bit border-2 border-gold text-white-bit  flex flex-col items-center gap-4  p-4 shadow-lg rounded-lg">
         <li>
           <a
-            href="/home"
+            href="#home"
             className="font-montserrat leading-normal text-lg  hover:text-gold transition-all duration-300"
           >
             Home
@@ -21,7 +21,7 @@ const NavOpen = ({ isOpen }) => {
         </li>
         <li>
           <a
-            href="/"
+            href="#about"
             className="font-montserrat leading-normal text-lg  hover:text-gold  transition-all duration-300"
           >
             About us
@@ -37,7 +37,7 @@ const NavOpen = ({ isOpen }) => {
         </li>
         <li>
           <a
-            href="/"
+            href="#contact"
             className="font-montserrat leading-normal text-lg  hover:text-gold  transition-all duration-300"
           >
             Contact us
@@ -75,7 +75,7 @@ export const Nav = () => {
         <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
           <li>
             <a
-              href="/"
+              href="#home"
               className=" text-white-bit font-montserrat leading-normal text-2xl hover:text-gold  transition-all duration-300"
             >
               Home
@@ -83,7 +83,7 @@ export const Nav = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="#about"
               className=" text-white-bit font-montserrat leading-normal text-2xl hover:text-gold transition-all duration-300"
             >
               About us
@@ -91,7 +91,7 @@ export const Nav = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="#products"
               className="font-montserrat leading-normal text-white-bit text-2xl hover:text-gold transition-all duration-300"
             >
               Products
@@ -99,7 +99,7 @@ export const Nav = () => {
           </li>
           <li>
             <a
-              href="/"
+              href="#contact"
               className="font-montserrat leading-normal text-2xl text-white-bit hover:text-gold transition-all duration-300"
             >
               Contact us

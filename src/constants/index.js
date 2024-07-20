@@ -16,6 +16,14 @@ import {
   bottle2,
   bottle3,
   bottle4,
+  bottle5,
+  bottle6,
+  bottle7,
+  bottle8,
+  bottle9,
+  bottle10,
+  bottle11,
+  bottle12,
 } from "../assets/images"
 
 export const navLinks = [
@@ -66,6 +74,46 @@ export const products = [
     imgURL: bottle4,
     name: "Jack Daniels ",
     price: "$80.20",
+  },
+  {
+    imgURL: bottle5,
+    name: "Zubrowka ",
+    price: "$10.30",
+  },
+  {
+    imgURL: bottle6,
+    name: "Absolut Vodka",
+    price: "$30.90",
+  },
+  {
+    imgURL: bottle7,
+    name: "Grey Goose",
+    price: "$110.00",
+  },
+  {
+    imgURL: bottle8,
+    name: "Hennessy",
+    price: "$137.00",
+  },
+  {
+    imgURL: bottle9,
+    name: "Grand Old Parr 12",
+    price: "$94.50",
+  },
+  {
+    imgURL: bottle10,
+    name: "Bombay Dry Gin",
+    price: "$40.50",
+  },
+  {
+    imgURL: bottle11,
+    name: "Black Label",
+    price: "$30.80",
+  },
+  {
+    imgURL: bottle12,
+    name: "Beluga",
+    price: "$230.80",
   },
 ]
 

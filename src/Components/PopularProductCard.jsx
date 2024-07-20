@@ -4,7 +4,7 @@ import { star } from "../assets/icons"
 
 const PopularProductCard = ({ imgURL, name, price }) => {
   return (
-    <div className=" flex flex-1 flex-col w-full max-sm:w-full transition-all 0.3s ease-out hover:border-2 border-gold rounded-xl bg-black-tint p-7 ">
+    <div className=" flex flex-1 flex-col w-full max-sm:w-full transition-all 0.3s border-2  border-black-tint ease-out  hover:border-gold rounded-xl bg-black-tint p-7 cursor-pointer ">
       <img
         src={imgURL}
         alt={name}
